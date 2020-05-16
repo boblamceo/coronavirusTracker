@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
 import Container from 'components/Container';
 
 const Header = () => {
@@ -21,16 +20,7 @@ const Header = () => {
                         <Link to="/news">News | </Link>
                     </li>
                     <li>
-                        <Link to="/chat">Chat | </Link>
-                    </li>
-                    <li>
-                        <Link to="/funny">Funny | </Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <a language="chinese">hihi</a>
+                        <Link to="/help">Help</Link>
                     </li>
                 </ul>
             </Container>
